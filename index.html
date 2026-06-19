@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdullah Haleem — Developer &amp; YouTuber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <div class="logo-circle">AH</div>
+      <span class="nav-name">Abdullah Haleem</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#hero"     class="nav-link">Home</a></li>
+      <li><a href="#about"    class="nav-link">About</a></li>
+      <li><a href="#skills"   class="nav-link">Skills</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#videos"   class="nav-link">Videos</a></li>
+      <li><a href="#contact"  class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+      </button>
+      <a href="mailto:abdullahhaleem530@gmail.com" class="btn-hire">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+
+      <!-- Left: text -->
+      <div class="hero-text">
+        <span class="hero-badge-pill">👋 Hello, World!</span>
+        <h1 class="hero-heading">
+          Hi, I'm<br>
+          <span class="hero-name">Abdullah Haleem</span>
+        </h1>
+        <p class="hero-role">
+          I'm a <span class="role-ticker" id="roleTicker"></span><span class="typing-cursor">|</span>
+        </p>
+        <p class="hero-tagline">I build things for the web and share knowledge on YouTube.</p>
+        <div class="hero-ctas">
+          <a href="#" class="btn-primary" download>
+            <i class="fa-solid fa-download"></i> Download CV
+          </a>
+          <a href="#portfolio" class="btn-outline">
+            See My Work <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://x.com/MeetAboodi" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/abdullah-haleem/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/abdullah.haleem.530" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/its.aboodi19/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: portrait -->
+      <div class="hero-visual">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <div class="hero-dots" aria-hidden="true"></div>
+        <div class="hero-img-frame">
+          <img src="photo.jpg" alt="Abdullah Haleem" class="hero-photo" />
+        </div>
+        <div class="hero-exp-badge" aria-hidden="true">
+          <span class="exp-num">2<span>+</span></span>
+          <span class="exp-label">Years<br>Experience</span>
+        </div>
+      </div>
+
+    </div>
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Get To Know Me</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-col reveal">
+          <div class="about-img-wrap">
+            <img src="photo.jpg" alt="Abdullah Haleem" class="about-photo" />
+            <div class="about-tag-badge">
+              <i class="fa-solid fa-code"></i>
+              <span>Developer &amp; Creator</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col reveal">
+          <h3 class="about-sub">Who am I?</h3>
+          <p class="about-bio">I'm <strong>Abdullah Haleem</strong>, a passionate web developer and content creator based in Pakistan. I love building clean, efficient, and creative web experiences that make a real impact.</p>
+          <p class="about-bio">On YouTube, I share coding tutorials, tech insights, and project walkthroughs to help aspiring developers level up. I believe in continuous learning and giving back to the community.</p>
+          <ul class="about-details">
+            <li><i class="fa-solid fa-location-dot"></i><span>Pakistan</span></li>
+            <li><i class="fa-solid fa-envelope"></i><span>abdullahhaleem530@gmail.com</span></li>
+            <li><i class="fa-brands fa-youtube"></i><span>YouTube Content Creator</span></li>
+          </ul>
+          <div class="about-stats">
+            <div class="astat">
+              <span class="astat-num">10<span class="accent">+</span></span>
+              <span class="astat-label">Projects</span>
+            </div>
+            <div class="astat">
+              <span class="astat-num">6<span class="accent">+</span></span>
+              <span class="astat-label">Skills</span>
+            </div>
+            <div class="astat">
+              <span class="astat-num">100<span class="accent">%</span></span>
+              <span class="astat-label">Passion</span>
+            </div>
+          </div>
+          <a href="#" class="btn-primary" download>
+            <i class="fa-solid fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS ═══════════════ -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What I Know</span>
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <!-- Progress bars -->
+        <div class="skills-bars reveal">
+          <h3 class="skills-sub">Technical Skills</h3>
+
+          <div class="bar-item">
+            <div class="bar-info"><span class="bar-label">HTML5</span><span class="bar-pct">90%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-pct="90"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-info"><span class="bar-label">CSS3</span><span class="bar-pct">85%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-pct="85"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-info"><span class="bar-label">JavaScript</span><span class="bar-pct">75%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-pct="75"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-info"><span class="bar-label">Python</span><span class="bar-pct">70%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-pct="70"></div></div>
+          </div>
+        </div>
+
+        <!-- Circular charts -->
+        <div class="skills-circles reveal">
+          <h3 class="skills-sub">Core Competencies</h3>
+          <div class="circles-grid">
+
+            <div class="circ-wrap">
+              <svg class="circ-svg" viewBox="0 0 80 80" role="img" aria-label="Web Development 88%">
+                <circle class="circ-bg" cx="40" cy="40" r="34" />
+                <circle class="circ-prog" cx="40" cy="40" r="34" data-pct="88" />
+              </svg>
+              <span class="circ-num">88%</span>
+              <span class="circ-label">Web Dev</span>
+            </div>
+
+            <div class="circ-wrap">
+              <svg class="circ-svg" viewBox="0 0 80 80" role="img" aria-label="Content Creation 82%">
+                <circle class="circ-bg" cx="40" cy="40" r="34" />
+                <circle class="circ-prog" cx="40" cy="40" r="34" data-pct="82" />
+              </svg>
+              <span class="circ-num">82%</span>
+              <span class="circ-label">Content</span>
+            </div>
+
+            <div class="circ-wrap">
+              <svg class="circ-svg" viewBox="0 0 80 80" role="img" aria-label="Problem Solving 90%">
+                <circle class="circ-bg" cx="40" cy="40" r="34" />
+                <circle class="circ-prog" cx="40" cy="40" r="34" data-pct="90" />
+              </svg>
+              <span class="circ-num">90%</span>
+              <span class="circ-label">Problem Solving</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What I Offer</span>
+        <h2 class="section-title">My <span class="accent">Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="svc-card reveal">
+          <div class="svc-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="svc-title">Web Development</h3>
+          <p class="svc-desc">Building fast, responsive, and accessible websites with modern HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon"><i class="fa-brands fa-youtube"></i></div>
+          <h3 class="svc-title">Content Creation</h3>
+          <p class="svc-desc">Producing engaging YouTube tutorials, tech explainers, and educational content for developers.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon"><i class="fa-brands fa-python"></i></div>
+          <h3 class="svc-title">Python Scripting</h3>
+          <p class="svc-desc">Automating repetitive tasks and building practical Python tools with clean, readable code.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3 class="svc-title">Technical Education</h3>
+          <p class="svc-desc">Breaking down complex programming concepts into simple, easy-to-understand lessons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PORTFOLIO ═══════════════ -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">My Work</span>
+        <h2 class="section-title">My <span class="accent">Portfolio</span></h2>
+      </div>
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="youtube">YouTube</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <div class="pf-card reveal" data-cat="web">
+          <div class="pf-thumb" style="--grad:linear-gradient(135deg,#667eea,#764ba2)">
+            <div class="pf-overlay">
+              <a href="#" class="pf-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a>
+            </div>
+          </div>
+          <div class="pf-body">
+            <span class="pf-badge pf-badge--web">Web</span>
+            <h3 class="pf-title">Personal Portfolio Website</h3>
+            <div class="pf-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </div>
+
+        <div class="pf-card reveal" data-cat="web">
+          <div class="pf-thumb" style="--grad:linear-gradient(135deg,#f7971e,#ffd200)">
+            <div class="pf-overlay">
+              <a href="#" class="pf-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a>
+            </div>
+          </div>
+          <div class="pf-body">
+            <span class="pf-badge pf-badge--web">Web</span>
+            <h3 class="pf-title">Task Automation Script</h3>
+            <div class="pf-tags"><span>Python</span><span>Automation</span></div>
+          </div>
+        </div>
+
+        <div class="pf-card reveal" data-cat="youtube">
+          <div class="pf-thumb" style="--grad:linear-gradient(135deg,#ff416c,#ff4b2b)">
+            <div class="pf-overlay">
+              <a href="#" class="pf-link"><i class="fa-brands fa-youtube"></i> View Channel</a>
+            </div>
+          </div>
+          <div class="pf-body">
+            <span class="pf-badge pf-badge--yt">YouTube</span>
+            <h3 class="pf-title">YouTube Tutorial Series</h3>
+            <div class="pf-tags"><span>Video</span><span>Education</span><span>Content</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ YOUTUBE VIDEOS ═══════════════ -->
+  <section class="section videos-section" id="videos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Watch &amp; Learn</span>
+        <h2 class="section-title">Watch My <span class="accent">Videos</span></h2>
+        <p class="section-desc">Explore popular coding &amp; tech tutorials — more on my channel!</p>
+      </div>
+      <div class="videos-grid">
+
+        <div class="vid-card reveal">
+          <div class="vid-frame">
+            <iframe src="https://www.youtube.com/embed/DHjqpvDnNGE"
+              title="JavaScript in 100 Seconds"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="vid-info">
+            <h3 class="vid-title">JavaScript in 100 Seconds</h3>
+            <span class="vid-channel"><i class="fa-brands fa-youtube"></i> Fireship</span>
+          </div>
+        </div>
+
+        <div class="vid-card reveal">
+          <div class="vid-frame">
+            <iframe src="https://www.youtube.com/embed/_uQrJ0TkZlc"
+              title="Python Tutorial for Beginners"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="vid-info">
+            <h3 class="vid-title">Python Tutorial for Beginners</h3>
+            <span class="vid-channel"><i class="fa-brands fa-youtube"></i> Programming with Mosh</span>
+          </div>
+        </div>
+
+        <div class="vid-card reveal">
+          <div class="vid-frame">
+            <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg"
+              title="Learn JavaScript – Full Course for Beginners"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="vid-info">
+            <h3 class="vid-title">JavaScript Full Course for Beginners</h3>
+            <span class="vid-channel"><i class="fa-brands fa-youtube"></i> freeCodeCamp</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="videos-cta reveal">
+        <!-- TODO: Replace # with your YouTube channel URL -->
+        <a href="#" class="btn-yt" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i> Subscribe on YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="accent">Talk</span></h2>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <p class="contact-intro">Have a project in mind or just want to say hi? Feel free to reach out — I'd love to hear from you!</p>
+          <div class="ci-list">
+            <div class="ci-item">
+              <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="ci-text">
+                <strong>Email</strong>
+                <p>abdullahhaleem530@gmail.com</p>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="ci-text">
+                <strong>Location</strong>
+                <p>Pakistan</p>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon"><i class="fa-brands fa-youtube"></i></div>
+              <div class="ci-text">
+                <strong>YouTube</strong>
+                <!-- TODO: Replace # with your YouTube channel URL -->
+                <p><a href="#" target="_blank" rel="noopener">Visit My Channel</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://x.com/MeetAboodi" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/abdullah-haleem/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/abdullah.haleem.530" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/its.aboodi19/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cname">Your Name</label>
+              <input type="text" id="cname" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="cemail">Your Email</label>
+              <input type="email" id="cemail" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="csubject">Subject</label>
+            <input type="text" id="csubject" name="subject" placeholder="Project Inquiry" />
+          </div>
+          <div class="form-group">
+            <label for="cmessage">Message</label>
+            <textarea id="cmessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <p class="form-success" id="formSuccess" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <div class="logo-circle">AH</div>
+        <span class="footer-name">Abdullah Haleem</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://x.com/MeetAboodi" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/abdullah-haleem/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/abdullah.haleem.530" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/its.aboodi19/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <!-- TODO: Replace # with your YouTube channel URL -->
+        <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 Abdullah Haleem. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Claude Code internals
+.claude/
+.playwright-mcp/
+
+# Verification screenshots (not part of the project)
+*.jpeg
+themeforest-check.png
+hero-view.png
+full-page.png
+about-section.png
